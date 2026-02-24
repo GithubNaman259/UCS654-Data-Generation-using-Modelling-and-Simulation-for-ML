@@ -6,7 +6,7 @@ This repository is created as submission for **Assignment-6 (UCS654)**.
 
 ## 👤 Submitted By
 
--   **Name:** Naman Kumar\
+-   **Name:** Naman Kumar
 -   **Roll Number:** 102317229
 
 ------------------------------------------------------------------------
