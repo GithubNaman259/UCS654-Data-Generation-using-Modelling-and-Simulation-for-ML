@@ -38,9 +38,9 @@ waiting time is recorded.
 
 The system models:
 
--   Random patient arrivals\
--   Limited number of doctors\
--   Variable treatment time\
+-   Random patient arrivals
+-   Limited number of doctors
+-   Variable treatment time
 -   Queue-based waiting system
 
 ### Parameters and Bounds
@@ -63,11 +63,11 @@ Generated Dataset: hospital_simulation_data.csv
 
 The following regression models were trained:
 
--   Linear Regression\
--   Decision Tree\
--   Random Forest\
--   Gradient Boosting\
--   Support Vector Regression (SVR)\
+-   Linear Regression
+-   Decision Tree
+-   Random Forest
+-   Gradient Boosting
+-   Support Vector Regression (SVR)
 -   K-Nearest Neighbors (KNN)
 
 ------------------------------------------------------------------------
@@ -76,9 +76,9 @@ The following regression models were trained:
 
 Models were compared using:
 
--   RMSE (to be minimized)\
--   R² Score (to be maximized)\
--   Training Time (to be minimized)\
+-   RMSE (to be minimized)
+-   R² Score (to be maximized)
+-   Training Time (to be minimized)
 -   Prediction Time (to be minimized)
 
 Results stored in: results.csv
@@ -119,9 +119,9 @@ TOPSIS was applied to rank models based on multiple criteria.
 
 Criteria Meaning:
 
--   RMSE → Minimize\
--   R² → Maximize\
--   Training Time → Minimize\
+-   RMSE → Minimize
+-   R² → Maximize
+-   Training Time → Minimize
 -   Prediction Time → Minimize
 
 TOPSIS Output File: topsis_result.csv
@@ -132,8 +132,8 @@ TOPSIS Output File: topsis_result.csv
 
 The model ranked 1 by TOPSIS provides the best balance between:
 
--   Prediction accuracy\
--   Computational efficiency\
+-   Prediction accuracy
+-   Computational efficiency
 -   Training cost
 
 ------------------------------------------------------------------------
@@ -150,14 +150,10 @@ The model ranked 1 by TOPSIS provides the best balance between:
 
 ## 📂 Files Included
 
--   hospital_simulation_data.csv\
--   results.csv\
--   topsis_result.csv\
--   model_comparison.png\
--   feature_importance.png\
--   Assignment6.ipynb\
+-   hospital_simulation_data.csv
+-   results.csv
+-   topsis_result.csv
+-   model_comparison.png
+-   feature_importance.png
+-   code.ipynb
 -   README.md
-
-------------------------------------------------------------------------
-
-This project is intended for academic submission purposes only.
